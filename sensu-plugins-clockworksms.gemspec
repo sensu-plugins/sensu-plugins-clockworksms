@@ -35,13 +35,13 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'clockwork'
   s.add_runtime_dependency 'timeout'
 
-  s.add_development_dependency 'codeclimate-test-reporter', 'XXX'
+  s.add_development_dependency 'codeclimate-test-reporter'
   s.add_development_dependency 'rubocop', '~> 0.17.0'
   s.add_development_dependency 'rspec', '~> 3.1'
   s.add_development_dependency 'bundler', '~> 1.7'
   s.add_development_dependency 'rake', '~> 10.0'
-  s.add_development_dependency 'github-markup', 'XXX'
-  s.add_development_dependency 'redcarpet', 'XXX'
-  s.add_development_dependency 'yard', 'XXX'
-  s.add_development_dependency 'pry', 'XXX'
+  s.add_development_dependency 'github-markup'
+  s.add_development_dependency 'redcarpet'
+  s.add_development_dependency 'yard'
+  s.add_development_dependency 'pry'
 end
