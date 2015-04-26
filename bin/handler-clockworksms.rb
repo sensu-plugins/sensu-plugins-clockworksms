@@ -11,11 +11,13 @@
 # Released under the same terms as Sensu (the MIT license); see LICENSE
 # for details.
 
-require 'rubygems' if RUBY_VERSION < '1.9.0'
 require 'sensu-handler'
 require 'clockwork'
 require 'timeout'
 
+#
+# Clcokwork Sms Notify
+#
 class ClockWorkSmsNotif < Sensu::Handler
   def event_name
     @event['client']['name'] + '/' + @event['check']['name']
@@ -35,7 +37,7 @@ class ClockWorkSmsNotif < Sensu::Handler
     end
   end
 
-  def handle
+  def handle # rubocop:disable all
     key = settings['clockworksms']['key']
     to = settings['clockworksms']['to']
     from = settings['clockworksms']['from'] || 'SENSU'
