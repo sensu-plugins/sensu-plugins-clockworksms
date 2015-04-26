@@ -1,11 +1,11 @@
-require 'sensu-plugins-campfire/version'
+require 'sensu-plugins-clockworksms/version'
 
 # Load the defaults
 
 #
 # Default class
 #
-module SensuPluginsCampfire
+module SensuPluginsClockworksms
   class << self
   end
 
