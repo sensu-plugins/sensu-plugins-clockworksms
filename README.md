@@ -36,8 +36,6 @@
 
 ## Installation
 
-Add the public key (if you haven’t already) as a trusted certificate
-
 [Installation and Setup](https://github.com/sensu-plugins/documentation/blob/master/user_docs/installation_instructions.md)
 
 ## Notes
