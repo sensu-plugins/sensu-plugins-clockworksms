@@ -37,7 +37,7 @@ class ClockWorkSmsNotif < Sensu::Handler
     end
   end
 
-  def handle # rubocop:disable all
+  def handle
     key = settings['clockworksms']['key']
     to = settings['clockworksms']['to']
     from = settings['clockworksms']['from'] || 'SENSU'
