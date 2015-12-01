@@ -13,7 +13,6 @@
 
 require 'sensu-handler'
 require 'clockwork'
-require 'timeout'
 
 #
 # Clcokwork Sms Notify
