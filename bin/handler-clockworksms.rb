@@ -15,7 +15,7 @@ require 'sensu-handler'
 require 'clockwork'
 
 #
-# Clcokwork Sms Notify
+# Clockwork SMS Notify
 #
 class ClockWorkSmsNotif < Sensu::Handler
   def event_name
