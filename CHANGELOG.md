@@ -3,9 +3,13 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 This CHANGELOG follows the format listed at [Keep A Changelog](http://keepachangelog.com/)
 
-## Unreleased][unreleased]
+## Unreleased
 
-## [0.0.3] - 2015-07-14
+## 0.0.4 - 2015-11-30
+### Changed
+- Removed unused `timeout` gem dependency that was preventing the handler from running
+
+## 0.0.3 - 2015-07-14
 ### Changed
 - updated sensu-plugin gem to 1.2.0
 
