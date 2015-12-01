@@ -1,11 +1,11 @@
 ## Sensu-Plugins-clockworksms
 
-[ ![Build Status](https://travis-ci.org/sensu-plugins/sensu-plugins-clockworksms.svg?branch=master)](https://travis-ci.org/sensu-plugins/sensu-plugins-clockworksms)
+[![Build Status](https://travis-ci.org/sensu-plugins/sensu-plugins-clockworksms.svg?branch=master)](https://travis-ci.org/sensu-plugins/sensu-plugins-clockworksms)
 [![Gem Version](https://badge.fury.io/rb/sensu-plugins-clockworksms.svg)](http://badge.fury.io/rb/sensu-plugins-clockworksms)
 [![Code Climate](https://codeclimate.com/github/sensu-plugins/sensu-plugins-clockworksms/badges/gpa.svg)](https://codeclimate.com/github/sensu-plugins/sensu-plugins-clockworksms)
 [![Test Coverage](https://codeclimate.com/github/sensu-plugins/sensu-plugins-clockworksms/badges/coverage.svg)](https://codeclimate.com/github/sensu-plugins/sensu-plugins-clockworksms)
 [![Dependency Status](https://gemnasium.com/sensu-plugins/sensu-plugins-clockworksms.svg)](https://gemnasium.com/sensu-plugins/sensu-plugins-clockworksms)
-[ ![Codeship Status for sensu-plugins/sensu-plugins-clockworksms](https://codeship.com/projects/e8fdba80-cde6-0132-f83d-36838894891f/status?branch=master)](https://codeship.com/projects/76359)
+[![Codeship Status for sensu-plugins/sensu-plugins-clockworksms](https://codeship.com/projects/e8fdba80-cde6-0132-f83d-36838894891f/status?branch=master)](https://codeship.com/projects/76359)
 
 ## Functionality
 
