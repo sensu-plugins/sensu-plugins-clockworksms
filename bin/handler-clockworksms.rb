@@ -41,8 +41,8 @@ class ClockWorkSmsNotif < Sensu::Handler
     to = settings['clockworksms']['to']
     from = settings['clockworksms']['from'] || 'SENSU'
 
-    fail 'Please define a valid SMS key' if key.nil?
-    fail 'Please define a valid set of SMS recipients to use this handler' if to.nil? || !to.is_a?(Hash)
+    raise 'Please define a valid SMS key' if key.nil?
+    raise 'Please define a valid set of SMS recipients to use this handler' if to.nil? || !to.is_a?(Hash)
 
     message = @event['check']['notification'] || @event['check']['output']
 
