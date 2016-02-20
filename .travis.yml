@@ -1,19 +1,33 @@
 language: ruby
 cache:
-  - bundler
+- bundler
 install:
-  - bundle install
+- bundle install
 rvm:
-  - 1.9.3
-  - 2.0
-  - 2.1
-  - 2.2
+- 1.9.3
+- 2.0
+- 2.1
+- 2.2
 notifications:
   email:
     recipients:
-      - sensu-plugin@sensu-plugins.io
+    - sensu-plugin@sensu-plugins.io
     on_success: change
     on_failure: always
-
 script:
-  - 'bundle exec rake default'
+- bundle exec rake default
+- gem build sensu-plugins-clockworksms.gemspec
+- gem install sensu-plugins-clockworksms-*.gem
+deploy:
+  provider: rubygems
+  api_key:
+    secure: aDLqRr9/Y7tjHjaoaEegOTQB2bMWiORA67mxfUCJ2yxb5cdhwMwLGeUpI+cnk85TyygWE7UEXA+ZdupbzL+JVrRka+vr+J5HGyGLrVUVYM2LpXRj9wBy2hvaLHRV60ktxVHKeIWAw0JKfQqyb6WEqBOfLB30Xd5xs9zNEjUhRt8=
+  gem: sensu-plugins-clockworksms
+  on:
+    tags: true
+    all_branches: true
+    rvm: 1.9.3
+    rvm: 2.0
+    rvm: 2.1
+    rvm: 2.2
+    repo: sensu-plugins/sensu-plugins-clockworksms
