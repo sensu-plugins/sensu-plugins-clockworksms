@@ -7,6 +7,9 @@ This CHANGELOG follows the format listed at [Keep A Changelog](http://keepachang
 ### Breaking Changes
 - Removed support for Ruby 1.9.3
 
+### Added
+- Testing for Ruby 2.3.0 & 2.4.1
+
 ## [0.0.4] - 2015-11-30
 ### Changed
 - Removed unused `timeout` gem dependency that was preventing the handler from running
