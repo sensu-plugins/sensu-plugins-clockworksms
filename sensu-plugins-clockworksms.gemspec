@@ -34,7 +34,7 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency 'clockwork',    '1.2.0'
   s.add_runtime_dependency 'sensu-plugin', '~> 1.2'
-  s.add_runtime_dependency 'activesupport', '~> 4.2'
+  s.add_runtime_dependency 'activesupport', '>= 4.2', '< 6.0'
 
   s.add_development_dependency 'bundler', '~> 1.7'
   s.add_development_dependency 'codeclimate-test-reporter', '~> 0.4'
