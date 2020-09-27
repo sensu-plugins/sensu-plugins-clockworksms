@@ -32,7 +32,7 @@ Gem::Specification.new do |s|
   s.test_files             = s.files.grep(%r{^(test|spec|features)/})
   s.version                = SensuPluginsClockworksms::Version::VER_STRING
 
-  s.add_runtime_dependency 'clockwork',    '1.2.0'
+  s.add_runtime_dependency 'clockwork',    '2.0.4'
   s.add_runtime_dependency 'sensu-plugin', '>= 1.2', '< 5.0'
   s.add_runtime_dependency 'activesupport', '~> 4.2'
 
